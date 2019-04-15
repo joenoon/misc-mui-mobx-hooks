@@ -15,9 +15,7 @@
   "scripts": {
     "prettier": "prettier --write \"**/*.js\" \"**/*.ts\"",
     "validate": "tsc --noEmit",
-    "build": "node build-rollup.js",
-    "prerelease": "yarn validate && yarn build",
-    "release": "npm publish --access public"
+    "build": "node build-rollup.js"
   },
   "author": "Joe Noon",
   "license": "MIT",
